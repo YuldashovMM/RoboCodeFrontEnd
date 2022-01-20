@@ -1,0 +1,32 @@
+nav .brand{
+     width: 20%;
+     background-color: brown;
+     position: absolute;
+}
+nav{
+     position: absolute;
+     opacity: 0.9;
+}     
+nav #search{
+     width: 60%;
+     position: absolute;
+     margin-left: 22%;
+}
+body{
+     background-color: #222b22;
+}
+.mycontainer{
+     margin-left: 20%;
+}
+.rating{
+     color: white;
+     background-color: olive;
+     width: 40px;
+     border-radius: 50px;
+     text-align: center;
+     margin-left: 50px;
+     margin-top: -9px;
+     font-size: 18px;
+     position: absolute;
+
+}

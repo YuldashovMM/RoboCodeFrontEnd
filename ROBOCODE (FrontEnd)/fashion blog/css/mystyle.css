@@ -1,0 +1,14 @@
+.nav{
+     text-align: right;
+     padding-right: 2em;
+     font-size: 25px;
+}
+.logo{
+     text-align: left;
+}
+a{
+     margin-left: 25px;
+}
+a:hover{
+     text-shadow: 2px 2px 3px teal;
+}

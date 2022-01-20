@@ -1,0 +1,130 @@
+*{
+
+}
+.boxa{
+     width:500px;
+     height: 500px;
+     background-color: gray;
+}
+.boxaa{
+     width: 170px;
+     height: 500px;
+     background-color: indigo;
+     position: absolute;
+     transform: translateX(170px);
+     border-radius: 50px;
+}
+.boxab{
+     width: 170px;
+     height: 500px;
+     background-color: indigo;
+     position: absolute;
+     transform: rotate(-90deg);
+     border-radius: 50px;
+     margin-left: 165px;
+}
+.boxb{
+     width:500px;
+     height: 500px;
+     background-color: black;
+}
+.boxba{
+     width: 500px;
+     height: 166px;
+     background-color: green;
+     border-radius: 50px;    
+}
+.boxbb{
+     width: 500px;
+     height: 166px;
+     background-color: red;
+     border-radius: 50px;    
+}
+.boxbc{
+     width: 500px;
+     height: 166px;
+     background-color: blue;
+     border-radius: 50px;    
+}
+.boxc{
+     width:500px;
+     height: 500px;
+     background-color: gainsboro;
+}
+.boxca{
+     width: 500px;
+     height: 300px;
+     background-color: lime;
+     border-radius: 40px;
+}
+.boxcb{
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     background-color: blueviolet;
+     margin-top: -100px;
+     margin-left: 100px;
+     border-radius: 50%;
+}
+.boxd{
+     width:500px;
+     height: 500px;
+     background-color: gainsboro;
+}
+.boxda{
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     background-color: orangered;
+     margin: 0 0 0 220px;
+     border-radius: 50%;
+}
+.boxdb{
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     background-color: greenyellow;
+     margin: 170px 0 0 0;
+     border-radius: 50%;
+}
+.boxdc{
+     position: absolute;
+     width: 220px;
+     height: 220px;
+     background-color: navy;
+     margin: 280px 0 0 280px;
+     border-radius: 50%;
+}
+.boxe{
+     width:500px;
+     height: 500px;
+     background-color: gainsboro;
+}
+.boxea{
+     position: absolute;
+     width: 100px;
+     height: 500px;
+     background-color: navy;
+     border-radius: 60px;
+}
+.boxeb{
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     background-color: greenyellow;
+     margin: 100px 0 0 100px;
+     border-radius: 50%;
+}
+.boxec{
+     position: absolute;
+     width: 100px;
+     height: 500px;
+     background-color: navy;
+     margin: 0px 0 0 400px;
+     border-radius: 60px;
+}
+
+
+.footer{
+     margin-top: 5000px;
+}

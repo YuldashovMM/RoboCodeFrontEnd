@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Robocode IT Academy</title>
+     <link rel="stylesheet" href="css/stile.css">
+     <link rel="stylesheet" href="css/materialize.css">
+     <link rel="stylesheet" href="css/bulma.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+              <img src="img/log.png" class="navbar-item" id="logoo">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                Bosh sahifa
+              </a>
+        
+              <a class="navbar-item">
+                Kurslar
+              </a>
+              
+              <a class="navbar-item">
+               Biz haqimizda
+              </a>
+
+              <a class="navbar-item">
+               Aloqa
+              </a>
+             
+              </div>
+            </div>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                   <div class="navbar-menu">
+                    <div class="icons">
+                         <i class="fab fa-facebook"></i>
+                         <i class="fab fa-telegram"></i>
+                         <i class="fab fa-youtube"></i>
+                         <i class="fab fa-instagram"></i>
+                        </div>
+                   </div>
+               <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+               </script>    
+              </div>
+            </div>
+          </div>
+        </nav>
+        <br><br><br>
+        <div class="columns center">
+          <div class="column">
+               <br><br><br><br>
+               <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Dasturlashni", "Robototexnikani", "Grafik dizaynni" ]'>
+                      <span class="wrap"></span>
+                    </a>
+                    <br><br>
+                    <h1 class="qolganmatn">
+                         o'rganish ushun orzu emas - harakat qiling!
+                    </h1>
+                    <script>
+                         var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-righ: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+                    </script>
+                  </h1><br><br>
+                  <button class="btn button is-warning" style="background: #eded2f; font-family: sans-serif;">
+                    <b>Bepul sinov darsga yozilish</b>  
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                  <br>
+          </div>
+          <br>
+          <div class="column">
+            <img src="img/pic1.png" alt="birinchi rasm" width="500" class="rasm">
+          </div>
+        </div>
+        <hr>
+  <center>
+       <h3 class="barcha">Barcha kurslar</h3>
+  </center>
+  <br>
+  <div class="container">
+     <div class="row">
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <img src="img/arduino.png" class="img">
+                    <br>
+                    <p class="title">LEGO MINDSTORMS</p>
+                    <p class="inf">
+                         9 yoshdan oshgan maktab o'quvchilari va umuman qiziquvchilar uchun Robototexnikaning boshlang'ich kursi...Scratch blokli dasturlash.
+                    </p>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <br><br><img src="img/lego.png" class="img">
+                    <p class="title">Arduino</p>
+                    <p class="inf">
+                         Arduino mikrokontrolleri dunyo bo'ylab keng tarqalgan bo'lib, u yordamida qilingan loyihalar kundalik hayotimizda keng foydalanilmoqda.     
+                    </p>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <br><br><img src="img/back.png" class="img">
+                    <p class="title">WEB dasturlash (backend)</p>
+                    <p class="inf">
+                         Python dasturlash tili asoslari hamda Django web-framework i o'rgatiladi. Bu sizga eng so'nggi fullstack dasturchi sifatida rivojlanishingizga yordam beradi.
+                    </p>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <br><br><img src="img/fr.png" class="img">
+                    <p class="title">WEB dasturlash (frontend)</p>
+                    <p class="inf">
+                         Ushbu kurs sizga havaskor web-dasturchidan professional faoliyatingizni boshlashingiz mumkin bo’lgan kerakli bilimlarga ega yosh web-dasturchiga aylanishingizga yordam beradi.
+                    </p>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <br><br><img src="img/graph.png" class="img">
+                    <p class="title">Grafik dizayn</p>
+                    <p class="inf">
+                         Hozirgi kunda grafik dizaynerlik kasbi eng talab yuqori bo’lgan kasblardan biri hisoblanib, har bir sohada dizaynerlarga ehtiyoj ortib bormoqda.                    </p>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+          <div class="col s12 m6">
+               <div class="mycard">
+                    <br><br><img src="img/cs.png" class="img">
+                    <p class="title">Kompyuter fani (Computer Science)</p>
+                    <p class="inf">
+                         Bu kursda siz kompyuter va uning texnologiyalaridan kundalik hayotda bemalol foydalanishni o'rganasiz. Ushbu kurs dasturlash kursiga tayyorlov kursi ham hisoblanadi.                    <br>
+                    <br>
+                    <button class="button is-warning">Batafsil</button>
+               </div>
+          </div>
+
+        </div>
+     <hr>
+     <div class="container">
+          <div class="mybox">
+               <h2 >Bizning o'quvchilar qayerda ishlashadi?</h2>
+               <br>
+               <div class="row">
+                    <div class="col s12 m3">
+                         <img src="img/1.png" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                         <img src="img/6.png" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                         <img src="img/3.png" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                         <img src="img/4.png" alt="">
+                    </div>
+               </div>
+          </div>
+     </div>
+  </div>
+<div id="card" class="container" style="top: 20px;">
+     <h1>Biz nima bilan farq qilamiz?</h1>
+     <div class="row">
+          <div class="col s12 m6">
+               <img src="img/ab.png" alt="">
+          </div>
+          <div class="col s12 m6">
+               <div class="row">
+                    <div class="col">
+                         <img src="img/speech-bubble.svg" width="45"style="margin-right: 7px;">
+                         <p>Har darsdagi amaliy topshirqlar - algoritmlar bilan ishlash ko’nikmasini oshiradi va o’quvchida dasturlash va injenerlik kasbini rivojlantiradi. Muntazam imtihonlar orqali bilmlar mustahkamlab boriladi.</p>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                         <img src="img/knowledge.svg" width="45"style="margin-right: 7px;"><p>STEM yo'nalishidagi darslar, Robototexnika va Dasturlash orqali bolalarni matematika va fizikaga o'rgatiladi. 70 % amaliy 30 % nazariy bilimlar.Darslar davomida o'ziga xos muhokama va munozaralar bo'lib o'tadi.</p>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                         <img src="img/trophy.svg" width="45"style="margin-right: 7px;"><p>Xalqaro musobaqalar O'quvchilarimiz WPO 2017 boyicha jahon chempioni.</p>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                         <img src="img/training.svg" width="45"style="margin-right: 7px;"><p>Kurs davomida kompyuter , konstruktor va dars uchun kerakli barcha narsalar bilan ta'minlaymiz.Darsdan tashqari vaqtda kelib mashg'ulot olib borish uchun sharoitlar.</p>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                         <img src="img/brainstorming.svg" width="45"style="margin-right: 7px;"><p>O'quvchilar shaxsiy loyihalarini yo'lga qo'yishida ko'maklashiladi yo'l yo'riq ko'rsatiladi. Iqtidorli o'quvchilar uchun Toshkentdagi nufuzli IT firmalarda stajirovka qilish imkoniyati.</p>
+                    </div>
+               </div>
+               </div>
+               <hr class="mt-2">
+          </div>
+     </div>   
+     <hr>  
+</div>
+<br>
+<div class="container">
+     <div class="row contact">
+          <div class="col s12 m6">
+               <img src="img/ab2.png" alt="">
+          </div>
+          <div class="col s12 m6">
+               <p>Ism-Familiya*</p>
+               <input type="text" placeholder="F.I.Sh*" class="input">
+               <p>Telefon*</p>
+               <input type="number" class="phone-number" placeholder="+998 ">
+               <p>Mavzu*</p>
+               <input type="text" placeholder="Example">
+               <p>Qo'shimcha xabar*</p>
+               <input type="textarea" class="textarea">
+               <br>
+               <button class="button is-warning">Yuborish</button>
+          </div>
+     </div>
+</div>
+<footer class="footer has-background-black-ter">
+     <div class="row">
+          <div class="col s12 m3 white-text" >
+               <p>RoboCode IT Academy o'quv markazi sizga eng zamonaviy o'quv tizimlarini taklif etadi.
+                    Ijtimoiy tarmoqlarimiz: <br>
+               <i class="fab fa-facebook"></i>
+               <i class="fab fa-instagram"></i>
+               <i class="fab fa-youtube"></i>
+               <i class="fab fa-telegram"></i>
+               </p>
+          </div>
+          <div class="col s12 m3 white-text">
+               <p>Ma'lumot</p>
+               <p> Andijon vil. Andijon sh. Buyuk Turon 21, Avtovokzal ortida.</p>
+               <p>+998 99 899 90 05</p>
+               <p>robocode.andijan@mail.ru</p>
+          </div>
+          <div class="col s12 m3 white-text"> 
+               <p>Kurslar</p><br>
+               <a href="#" class="white-text">LEGO MINDSTORMS</a><br>
+               <a href="#"class="white-text">Arduino</a><br>
+               <a href="#"class="white-text">Web dasturlash (backend)</a><br>
+               <a href="#"class="white-text">Web dasturlash (frontend)</a><br>
+               <a href="#"class="white-text">Grafik dizayn</a><br>
+               <a href="#"class="white-text">Kompyuter fani (Computer science)</a>
+          </div>
+          <div class="col s12 m2 white-text">
+               <p>So'ngi videolar</p><br>
+               <a href="#" class="white-text">Logo chizish qanchaga tushadi?</a><br>
+               <a href="#"class="white-text">Noutbuk va kompyuteringiz tezlatamiz !</a><br>
+               <a href="#"class="white-text">Sublime yoki VsCode | Qay biri zo'r?</a><br>
+          </div>
+     </div>
+     <hr>
+     <center>
+          2022 © Robocode IT Academy
+     </center>
+</footer>
+<script src="js/materialize.js">
+     M.Autoinit{}
+</script>
+</body>
+</html>

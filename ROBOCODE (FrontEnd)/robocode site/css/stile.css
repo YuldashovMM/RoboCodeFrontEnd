@@ -1,0 +1,222 @@
+*{
+  box-sizing: border-box;
+}
+.icons{
+  margin-top: 30px;
+  word-spacing: 10px;
+  padding-left: 200px;
+  padding-right: 50px;
+}
+.navbar{
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: none;
+}
+@media screen and (max-width:765px) {
+ #logoo{
+   width: 160px;
+   height: auto;
+ }
+  .icons{
+    margin-top: 30px;
+    word-spacing: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  .navbar{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: none;
+  }
+    
+  }
+
+@media screen and (max-width:1000px) {
+  .icons{
+    margin-top: 30px;
+    word-spacing: 10px;
+    padding-left: 0px;
+    padding-right: 50px;
+    width: 200px;
+  }
+}
+.text{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  width: 450px;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 50px;
+  color: #404b67;
+}
+body {
+  background-color:transparent;
+
+}
+
+.typewrite { 
+  color:#404b67; 
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 45px;
+}
+.qolganmatn{
+  margin-left: 180px;
+  text-align: left;
+  color:#404b67; 
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+}
+@media screen and (max-width:460px) {
+  .qolganmatn{
+    margin-left: 0;
+  }
+  .rasm{
+    width: 300px;
+  }
+}
+@media screen and (max-width:1025px) {
+  .qolganmatn{
+    margin-left: 50px;
+  }
+}
+.btn{
+  word-spacing: 2px;
+  background: #eded2f; 
+  font-size: 16px; 
+  letter-spacing: 1.5px;
+  box-shadow: 0.3px 0.5px 1px yellow;
+  animation: pulse 2s infinite
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #FFC033;
+    box-shadow: 0 0 0 0 #ffc033;
+}
+70% {
+    -moz-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+    box-shadow: 0 0 0 10px rgb(204 169 44 / 0%);
+}
+100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    box-shadow: 0 0 0 0 rgb(204 169 44 / 0%);
+}
+}
+.barcha{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #404b67;
+}
+.mycard{
+  width: 100%;
+  height: 320px;
+  box-shadow: 10px 10px 20px rgb(248, 196, 99);
+  padding: 1px 10px 0 50px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.mycard:hover{
+  transition: all 1s;
+  box-shadow: 1px 1px 8px gray;
+}
+.mycard .title{
+  font-weight: 600;
+  font-size: 28px;
+  color: #404b67;
+}
+.mycard .inf{
+  width: 310px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: #404b67;
+  font-weight: 500;
+}
+.img{
+  display: block;
+  float: right;
+}
+.col{
+  padding-top: -20px;
+  margin-top: 25px;
+
+}
+@media screen and (max-width:800px) {
+  .mycard{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgb(248, 196, 99);
+    padding: 1px 10px 0 50px;
+    border-radius: 10px;
+  }
+  .mycard .title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #404b67;
+  }
+  .col{
+    margin-top: 25px;
+  }
+  .button{
+    bottom: 15px;
+  }
+  .img{
+    bottom: 8px;
+    margin-left: 20%;
+    float: none;
+    display: block;
+    width: 176px;
+  }
+  .mycard .inf{
+    width: 100%;
+  }
+}
+.mybox{
+  height: 350px;
+  border-radius: none;
+  border-top: 1px solid #404b67;
+  border-bottom: 1px solid #404b67;
+  margin-bottom: 25px;
+}
+.mybox h2{
+  font-size: 30px;
+  color: #404b67;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mybox img{
+  width: 300px;
+  opacity: 70%;
+}
+@media screen and (max-width:768px) {
+  .mybox{
+    height: auto;
+  }
+  .mybox h2{
+    padding: 15px 0 0 -50px;
+    font-size: 18px;
+  }
+  .mybox img{
+    margin-left: 30%;
+    width: 150px;
+    opacity: 70%;
+  }
+}
+.container h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+    font-size: 45px;
+    color: #404b67;
+}
+#card p{
+  width: 500px;
+  float: right;
+}
+#card input{
+  border:1px solid #404b67;
+  background-color: g;
+}

@@ -1,0 +1,858 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.backgrou{
+     width: 100%;
+     height: auto;
+     position: absolute;
+}
+.logohead{
+     width: 30px;
+     height: auto;
+     position: absolute;
+     margin: 30px 0 0 80px;
+}
+.navigation{
+     display: flex;
+     position: absolute;
+     margin: 30px 0 0 300px;
+}
+.home{
+     text-decoration: none;
+     color: #fff;
+     font-size: 23px;
+     transition: 0.2s linear;
+}
+.home:hover{
+     transform: scale(1.3);
+     color: gold;
+     border-bottom-style: solid;
+}
+.curs{
+     margin-left: 50px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 23px;
+     transition: 0.2s linear;
+}
+.curs:hover{
+     transform: scale(1.3);
+     color: gold;
+     border-bottom-style: solid;
+}
+.classs{
+     margin-left: 50px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 23px;
+     transition: 0.2s linear;
+}
+.classs:hover{
+     transform: scale(1.3);
+     color: gold;
+     border-bottom-style: solid;
+}
+.teach{
+     margin-left: 50px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 23px;
+     transition: 0.2s linear;
+}
+.teach:hover{
+     transform: scale(1.3);
+     color: gold;
+     border-bottom-style: solid;
+}
+.cont{
+     margin-left: 50px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 23px;
+     transition: 0.2s linear;
+}
+.cont:hover{
+     transform: scale(1.3);
+     color: gold;
+     border-bottom-style: solid;
+}
+.cabinet{
+     position: absolute;
+     width: 190px;
+     height: 40px;
+     border-radius: 50px;
+     background-image: linear-gradient(to right, blueviolet , purple);
+     margin-left: 80%;
+     margin-top: 22px;
+     border:2px solid #000;
+     text-align: center;
+     animation: animatesign 3s infinite alternate;
+}
+@keyframes animatesign{
+     from{
+          transform: scale(1.0);
+     }
+     to{
+          transform: scale(1.19);
+     }
+}
+.sing{
+     text-decoration: none;
+     color: #fff;
+     font-size: 30px;
+}
+.birinchitext{
+     position: absolute;
+     color: #fff;
+     margin: 200px 0 0 120px;
+     font-size: 45px;
+     letter-spacing: 5px;
+}
+.br{
+     color: darkviolet;
+     letter-spacing: 12px;
+}
+
+.Daya{
+     display: block;
+     position: absolute;
+     color: #fff;
+     background-color: #0c0c0c;
+     margin: 320px 0 0 120px;
+     width: 100px;
+     height: 120px;
+     text-align: center;
+     padding-top: 10px;
+     box-shadow: 3px 3px 5px indigo;
+}
+.num{
+     font-size: 60px;
+}
+.day{
+     color: gray;
+     font-size: 22px;
+}
+.houra{
+     display: block;
+     position: absolute;
+     color: #fff;
+     background-color: #0c0c0c;
+     margin: 320px 0 0 240px;
+     width: 100px;
+     height: 120px;
+     text-align: center;
+     padding-top: 10px;
+     box-shadow: 3px 3px 5px indigo;
+}
+.numa{
+     font-size: 60px;
+}
+.hour{
+     color: gray;
+     font-size: 22px;
+}
+.mina{
+     display: block;
+     position: absolute;
+     color: #fff;
+     background-color: #0c0c0c;
+     margin: 320px 0 0 360px;
+     width: 100px;
+     height: 120px;
+     text-align: center;
+     padding-top: 10px;
+     box-shadow: 3px 3px 5px indigo;
+}
+.numb{
+     font-size: 60px;
+}
+.min{
+     color: gray;
+     font-size: 22px;
+}
+.seca{
+     display: block;
+     position: absolute;
+     color: #fff;
+     background-color: #0c0c0c;
+     margin: 320px 0 0 480px;
+     width: 100px;
+     height: 120px;
+     text-align: center;
+     padding-top: 10px;
+     box-shadow: 3px 3px 5px indigo;
+}
+.numc{
+     font-size: 60px;
+}
+.sec{
+     color: gray;
+     font-size: 22px;
+}
+.end{
+     position: absolute;
+     width: 100%;
+     height: 100px;
+     background-color: #0c0c0c;
+     margin: 580px 0 0 0;
+}
+button{
+     width: 150px;
+     height: 40px;
+     border:none;
+     border-radius: 50px;
+     font-size: 20px;
+     color:#fff;
+     margin: 30px 0 0 220px;
+     background-image: linear-gradient(to right, #df5950, #451046);
+}
+button:hover{
+     box-shadow: 2px 2px 3px red;
+     transition: 0.5s ease;
+     transform: scale(1.1);
+}
+.inf{
+     display: table;
+     margin: -50px 0 0 450px;
+     position: absolute;
+     width: 300px;
+     height: 60px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+}
+#a{
+     color: grey;
+}
+#b{
+     color: grey;
+}
+.earn{
+     display: table;
+     margin: -65px 0 0 790px;
+     position: absolute;
+     width: 300px;
+     height: 60px;
+     color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+}
+#c{
+     color: grey;
+}
+.line{
+     position: absolute;
+     margin: -18px 0 0 795px;
+     width: 350px;
+     height: 5px;
+     border-radius: 70px;
+     background-image: linear-gradient(to right, orange, red);
+}
+.linea{
+     position: absolute;
+     margin: -18px 0 0 1095px;
+     width: 180px;
+     height: 5px;
+     border-radius: 70px;
+     background-image: linear-gradient(to right, white, white);
+}
+.zero{
+     position: absolute;
+     color: gray;
+     margin: 60px 0 0 427px;
+}
+.million{
+     position: absolute;
+     color: grey;
+     margin: 60px 0 0 840px;
+}
+.our{
+     width: 100%;
+     height:800px;
+     background-color: #000;
+     position: absolute;
+     margin-top:680px
+}
+.rectangel{
+     position: absolute;
+     margin: 100px 0 0 130px;
+     width: 400px;
+     height: auto;
+}
+.comp{
+     width: 350px;
+     height: auto;
+     position: absolute;
+     margin:160px 0 0 160px;
+}
+.nimabn{
+     text-shadow: 6px 4px 5px purple;
+     color: #fff;
+     font-size: 45px;
+     margin: 200px 0 0 700px;
+}
+.matn{
+     color: gray;
+     font-size: 18px;
+     width: 500px;
+     height: auto;
+     position: absolute;
+     margin: 20px 0 0 700px;
+}
+.start{
+     width: 100%;
+     height: 500px;
+     background-color: black;
+     position: absolute;
+     margin-top: 1450px;
+     
+}
+.oy{
+     position: absolute;
+     transform: rotate(222deg);
+     margin: 50px 0 0 130px;
+     width: 70px;
+     height: auto;
+}
+.matna{
+     color: #fff;
+     font-size: 45px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 45px 0 0 220px;
+}
+.matncha{
+     font-size: 15px;
+     color: gray;
+     width: 350px;
+     height: auto;
+     margin: 15px 0 0 130px;
+}
+.yuz{
+     position: absolute;
+     width: 250px;
+     height: 60px;
+     background-image: linear-gradient(to right, #c89afc, #7c6afa);
+     margin: 80px 0 0 130px;
+}
+.yetti{
+     position: absolute;
+     width: 250px;
+     height: 50px;
+     background-image: linear-gradient(to right,  #7c6afa, #c89afc);
+     margin: 85px 0 0 380px;
+}
+.besh{
+     position: absolute;
+     width: 250px;
+     height: 40px;
+     background-image: linear-gradient(to right, #c89afc, #7c6afa);
+     margin: 90px 0 0 630px;
+}
+.itog{
+     position: absolute;
+     width: 250px;
+     height: 20px;
+     background-image: linear-gradient(to right, #7c6afa, #c89afc);
+     margin: 100px 0 0 880px;
+}
+.foiza{
+     margin: 30px 0 0 130px;
+     position: absolute;
+     color: honeydew;
+}
+.foizb{
+     margin: 30px 0 0 390px;
+     position: absolute;
+     color: honeydew;
+}
+.foizc{
+     margin: 30px 0 0 640px;
+     position: absolute;
+     color: honeydew;
+}
+.foizd{
+     margin: 30px 0 0 880px;
+     position: absolute;
+     color: honeydew;
+}
+.matnyuz{
+     margin: 165px 0 0 130px;
+     width: 220px;
+     height: auto;
+     position: absolute;
+     color: gray;
+     text-align: justify;
+}
+.matnyetti{
+     margin: 165px 0 0 385px;
+     width: 220px;
+     height: auto;
+     position: absolute;
+     color: gray;
+     text-align: justify;
+}
+.matnbesh{
+     margin: 165px 0 0 635px;
+     width: 220px;
+     height: auto;
+     position: absolute;
+     color: gray;
+     text-align: justify;
+}
+.matnitog{
+     margin: 165px 0 0 885px;
+     width: 220px;
+     height: auto;
+     position: absolute;
+     color: gray;
+     text-align: justify;
+}
+.prof{
+     width: 100%;
+     height: 600px;
+     background-color: black;
+     position: absolute;
+     margin-top: 1940px;
+}
+.matnca{
+     color: white;
+     text-align: center;
+     margin-top: 80px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.com{ 
+     position: absolute;
+     width: auto;
+     height: auto;
+     margin: 80px 0 0 320px;
+}
+.comt{
+     position: absolute;
+     font-size: 15px;
+     width: 220px;
+     height: auto;
+     text-align: center;
+     color: white;
+     margin: 200px 0 0 250px;
+}
+.comtext{
+     width: 250px;
+     position: absolute;
+     height: auto;
+     text-align: center;
+     font-size: 12px;
+     color: gray;
+     margin: 250px 0 0 235px;
+}
+.usb{
+     position: absolute;
+     width: auto;
+     height: auto;
+     margin: 80px 0 0 640px;
+}
+.usbt{
+     position: absolute;
+     font-size: 15px;
+     width: 220px;
+     height: auto;
+     text-align: center;
+     color: white;
+     margin: 200px 0 0 580px;
+}
+.usbtext{
+     position: absolute;
+     width: 250px;
+     height: auto;
+     text-align: center;
+     font-size: 12px;
+     color: gray;
+     margin: 250px 0 0 565px;
+}
+.cab{
+     position: absolute;
+     width: auto;
+     height: auto;
+     margin: 80px 0 0 990px;
+}
+.cabt{
+     position: absolute;
+     font-size: 15px;
+     width: 220px;
+     height: auto;
+     text-align: center;
+     color: white;
+     margin: 200px 0 0 940px;
+}
+.cabtext{
+     position: absolute;
+     width: 250px;
+     height: auto;
+     text-align: center;
+     font-size: 12px;
+     color: gray;
+     margin: 250px 0 0 925px;
+}
+.partner{
+     position: absolute;
+     width: 100%;
+     height: 600px;
+     background-color:black;
+     margin-top: 2540px;
+}
+.part{
+     margin: 150px 0 0 280px;
+     transform: rotate(45deg);
+     width: 70px;
+     height: auto;
+}
+.parttext{
+     position: absolute;
+     color: white;
+     font-size: 45px;
+     margin: -50px 0 0 380px;
+}
+.linee{
+     position: absolute;
+     width: 780px;
+     margin: 370px 0 0 -65px;
+}
+.lineee{
+     width: 300px;
+     position: absolute;
+     margin: 370px 0 0 -30px;
+     transform: rotate(90deg);
+}
+.lineeaa{
+     width: 300px;
+     position: absolute;
+     margin: 370px 0 0 370px;
+     transform: rotate(90deg);
+}
+.lineea{
+     width: 300px;
+     position: absolute;
+     margin: 370px 0 0 170px;
+     transform: rotate(90deg);
+}
+.logo{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 270px 0 0 -50px;
+}
+.logoa{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 270px 0 0 150px;
+}
+.logob{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 270px 0 0 350px;
+}
+.logoc{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 270px 0 0 550px;
+}
+.logod{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 420px 0 0 -50px;
+}
+.logoe{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 420px 0 0 150px;
+}
+.logof{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 420px 0 0 350px;
+}
+.logoj{
+     width: 140px;
+     height: auto;
+     position: absolute;
+     margin: 420px 0 0 550px;
+}
+.program{
+     width: 100%;
+     height: 2200px;
+     position: absolute;
+     background-color: black;
+     margin-top: 3140px;
+}
+.center{
+     position: absolute;
+     margin-left: 45%;
+     margin-top: 100px;
+}
+.progtext{
+     color: white;
+     position: absolute;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 60px;
+     margin: 220px 0 0 36%;
+}
+.progtexta{
+     text-align: center;
+     width: 300px;
+     color:gray;
+     position: absolute;
+     margin: 300px 0 0 38%;
+}
+.timeline{
+     position: absolute;
+     margin: 370px 0 0 650px;
+     height: 550px;
+}
+.lina{
+     width: auto;
+     position: absolute;
+     margin: 430px 0 0 610px;
+}
+.haftaa{
+     position: absolute;
+     color: gray;
+     font-size: 18px;
+     margin: 390px 0 0 520px; 
+}
+.haftatexta{
+     position: absolute;
+     width: 300px;
+     margin: 430px 0 0 300px;
+     color: white;
+     text-align: right;
+}
+.linb{
+     width: auto;
+     position: absolute;
+     margin: 550px 0 0 650px;
+}
+.haftab{
+     position: absolute;
+     color: gray;
+     font-size: 18px;
+     margin: 510px 0 0 700px; 
+}
+.haftatextb{
+     position: absolute;
+     width: 300px;
+     margin: 550px 0 0 680px;
+     color: white;
+     text-align: right;
+}
+.linc{
+     width: auto;
+     position: absolute;
+     margin: 730px 0 0 610px;
+}
+.haftac{
+     position: absolute;
+     color: gray;
+     font-size: 18px;
+     margin: 690px 0 0 520px; 
+}
+.haftatextc{
+     position: absolute;
+     width: 300px;
+     margin: 730px 0 0 300px;
+     color: white;
+     text-align: right;
+}
+.lind{
+     width: auto;
+     position: absolute;
+     margin: 850px 0 0 650px;
+}
+.haftad{
+     position: absolute;
+     color: gray;
+     font-size: 18px;
+     margin: 810px 0 0 700px; 
+}
+.haftatextd{
+     position: absolute;
+     width: 300px;
+     margin: 850px 0 0 680px;
+     color: white;
+     text-align: right;
+}
+.teacherslogo{
+     position: absolute;
+     margin: 1100px 0 0 120px;
+     transform: rotate(180deg);
+}
+.names{
+     position: absolute;
+     margin: 1100px 0 0 240px;
+     color: white;
+     font-size: 45px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.firstteach{
+     margin: 1260px 0 0 100px;
+}
+.secondteach{
+     margin: 1260px 0 0 240px;
+}
+.thirdteach{
+     margin: 1260px 0 0 240px;
+}
+.namea{
+     color: white;
+     position: absolute;
+     margin: 1500px 0 0 -1070px;
+     font-size: 35px;
+}
+.nameb{
+     color: white;
+     position: absolute;
+     margin: 1500px 0 0 -650px;
+     font-size: 35px;
+}
+.namec{
+     color: white;
+     position: absolute;
+     margin: 1500px 0 0 -200px;
+     font-size: 35px;
+}
+.speca{
+     color: gray;
+     position: absolute;
+     margin: 1550px 0 0 -170px;
+     font-size: 19px;
+}
+.specb{
+     color: gray;
+     position: absolute;
+     margin: 1550px 0 0 -640px;
+     font-size: 19px;
+}
+.specc{
+     color: gray;
+     position: absolute;
+     margin: 1550px 0 0 -1060px;
+     font-size: 19px;
+}
+.bioa{
+     position: absolute;
+     margin: 1600px 0 0 -1040px;
+     text-decoration: none;
+     color: white;
+     width: 150px;
+     height: 40px;
+     border:1px solid white;
+     padding: 10px 0 0 40px;
+     box-sizing: border-box;
+     border-radius: 50px;
+     box-shadow: 3px 3px 4px purple;
+}
+.bioa:hover{
+     background-color: orangered;
+     color: #fff;
+     border:transparent;
+     box-shadow: 3px 3px 3px purple;
+}
+.biob{
+     position: absolute;
+     margin: 1600px 0 0 -605px;
+     text-decoration: none;
+     color: white;
+     width: 150px;
+     height: 40px;
+     border:1px solid white;
+     padding: 10px 0 0 40px;
+     box-sizing: border-box;
+     border-radius: 50px;
+     box-shadow: 3px 3px 4px purple;
+}
+.biob:hover{
+     background-color: orangered;
+     color: #fff;
+     border:transparent;
+     box-shadow: 3px 3px 3px purple;
+}
+.bioc{
+     position: absolute;
+     margin: 1600px 0 0 -150px;
+     text-decoration: none;
+     color: white;
+     width: 150px;
+     height: 40px;
+     border:1px solid white;
+     padding: 10px 0 0 40px;
+     box-sizing: border-box;
+     border-radius: 50px;
+     box-shadow: 3px 3px 4px purple;
+}
+.bioc:hover{
+     background-color: orangered;
+     color: #fff;
+     border:transparent;
+     box-shadow: 3px 3px 3px purple;
+}
+.post{
+     color: white;
+     position: absolute;
+     font-size: 50px;
+     margin: 1800px 0 0 -680px;
+}
+.postext{
+     color: gray;
+     font-size: 18px;
+     position: absolute;
+     width: 400px;
+     text-align: center;
+     margin: 430px 0 0 450px;
+}
+.email{
+     font-size: 15px;
+     position: absolute;
+     width: 330px;
+     height: 30px;
+     padding-left:15px ;
+     margin: 2040px 0 0 -710px;
+     background-color: lightgray;
+     border-radius: 50px;
+     border: transparent;
+     opacity: 25%;
+}
+.follow{
+     position: absolute;
+     color: white;
+     width: 100px;
+     height: 30px;
+     margin: 2040px 0 0 -420px;
+     background-image: linear-gradient(to right, #df5950, purple);
+     text-align: center;
+     font-size: 25px;
+     text-decoration: none;
+     padding-top: 2px;
+     border-radius: 50px;
+}
+.insta{
+     margin: 2100px 0 0 -650px;
+     position: absolute;
+}
+.vk{
+     margin: 2100px 0 0 -590px;
+     position: absolute;
+}
+.yutub{
+     margin: 2100px 0 0 -530px;
+     position: absolute;
+}
+.fecbuk{
+     margin: 2100px 0 0 -470px;
+     position: absolute;
+}
